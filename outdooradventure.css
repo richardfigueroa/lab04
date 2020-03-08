@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+
+
+}
+
+h4{
+  boder-bottom: 1px solid black;
+
+}
+
+h2{
+  color: white;
+  background-color: #0172BA;
+  text-align: center;
+
+}
+
+header{
+  display:grid;
+  grid-template-columns:auto auto auto;
+
+
+}
+
+
+div#headerlogin{
+  align-self:center;
+  justify-self: start;
+}
+
+div#headerlogin a{
+  text-decoration: none;
+}
+
+div#headerlogin a {
+  border-radius: 35px;
+  background: #0172BA;
+  color:white;
+  padding: 10px;
+
+
+
+}
+
+div#headerlogin a:hover{
+  background-color:#089247;
+   color:white;
+
+
+}
+
+
+div#headerlogo{
+  align-self:center;
+  justify-self:center;
+
+}
+
+div#headersocial{
+  display: flex;
+  align-self: center;
+  justify-self: end;
+}
+
+
+
+
+
+nav{
+  background-color: #ECF7FE;
+  justify-content: center;
+  text-align:center;
+  padding:20px ;
+  top:0;
+  position: sticky;
+  border-top: 1px solid #0172BA;
+  border-bottom: 1px solid #0172BA;
+  display:flex;
+}
+
+nav a{
+
+  background-color:white;
+  border-radius: 55px;
+  border: 1px solid;
+  padding:10px;
+text-decoration: none;
+  color:#0172BA;
+
+}
+
+nav a:hover{
+  background-color: white
+  color: #003557;
+
+
+}
+
+
+
+nav li{
+display: inline;
+padding:0px 10px;
+
+
+}
+
+
+main{
+display:grid;
+grid-template-columns: 325px auto 350px;
+grid-gap:20px;
+padding-top:15px;
+padding-bottom:10px;
+min-width: 800px;
+}
+
+.gallery{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 10px;
+
+    }
+
+.flexitem{
+  margin:20px 10px;
+  border:1px solid black;
+}
+
+
+img#ad1,#ad2{
+  padding: 0px 20px 20px 0px;
+  float:right;
+}
+
+article#hiking p{
+  padding: 10px 10px;
+}
+
+
+
+img#hiking1{
+  float:right;
+  margin-left: 5px;
+}
+
+img#hiking2{
+  float:left;
+  margin-right: 10px;
+}
+
+article#canoesection{
+  padding: 0px 120px 20px 20px;
+
+}
+
+div#typesoftrails{
+  background-color: #ECF7FE;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  padding-bottom: 10px;
+  border:1px solid black;
+}
+
+div#typesoftrails h3{
+  text-align: center;
+  grid-column: 1 /span 2;
+
+}
+
+div#typesoftrails h4{
+  padding-bottom: 5px;
+}
+
+div#nationalpark, #provincialpark{
+padding: 25px;
+}
+
+div#provincialpark{
+  border-left: 1px solid black;
+
+}
+
+div#canoeing p{
+  padding:10px 0px;
+
+}
+
+ul#typesofcanoes{
+  padding: 10px 20px;
+}
+
+div#creditssection{
+  grid-column: 1/span 3;
+  grid-row: 2;
+  justify-content: center;
+  font-size: 12px;
+  border-bottom: 1px solid #0172BA;
+}
+
+div#creditssection h4{
+  text-align: center;
+  border-top: 1px solid #0172BA;
+}
+
+
+
+footer{
+  grid-gap:20px;
+  background-color: #ECF7FE;
+  display:grid;
+  grid-template-columns: 5;
+  border-top: 1px solid #0172BA;
+  border-bottom: 1px solid #0172BA;
+  overflow: auto;
+  margin-bottom: 20px;
+
+}
+footer div{
+ margin: 10px 0px;
+}
+
+footer h4{
+ border-bottom:1px solid #0172BA;
+}
+
+
+div#footlogo{
+  grid-column: 1;
+  grid-row: 1 / span 2;
+
+}
+
+div#aboutus{
+  grid-column:2;
+  grid-row:1 ;
+}
+div#reviews{
+  grid-column:2;
+  grid-row:2;
+}
+
+div#travel{
+  grid-column:3;
+  grid-row:1;
+}
+div#seminars{
+  grid-column:3;
+  grid-row:2;
+}
+div#photos{
+  grid-column:4;
+  grid-row:1;
+}
+div#events{
+  grid-column:4;
+  grid-row:2;
+}
+div#shop{
+  grid-column:5;
+  grid-row:1/ span 2;
+}
+
+
+/*
